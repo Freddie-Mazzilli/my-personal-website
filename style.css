@@ -2,7 +2,42 @@ body {
     background: lightblue;
 }
 
+h1 {
+    font-size: 75px;
+    background-color: rgba(245, 245, 245, 0.700);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 h2 {
     font-size: small;
-    color: darkmagenta;
+    color: magenta;
+    background-color: rgba(245, 245, 245, 0.700);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h3 {
+    background-color: rgba(245, 245, 245, 0.700);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+span {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url(./images/background.png);
+    color: black;
 }
